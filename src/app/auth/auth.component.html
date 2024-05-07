@@ -1,0 +1,62 @@
+<body>
+
+    <!-- Section: Design Block -->
+<section class=" text-center text-lg-start" style="width: 75%;">
+    <style>
+      .rounded-t-5 {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+      }
+  
+      @media (min-width: 992px) {
+        .rounded-tl-lg-0 {
+          border-top-left-radius: 0;
+        }
+  
+        .rounded-br-lg-5 {
+          border-bottom-right-radius: 0.5rem;
+        }
+      }
+    </style>
+    <div class="card mb-3">
+      <div class="row g-0 d-flex align-items-center">
+        
+        <div class="col-lg-7" style=" display: flex; justify-content: center;">
+        <div class="card-body px-md-5" style="max-width: 80%">
+
+            <div class="container">
+                <img src="./assets/logo2.png" style="height: 60px;" alt="Votre image">
+            </div>
+  
+            <form >
+            <h1 class="titre-bleu"></h1>
+              <div data-mdb-input-init class="form-outline">
+                <input type="text" id="username" name="username" [(ngModel)]="loginInfo.username" required placeholder="Nom d'utilisateur">
+              </div>
+              <div data-mdb-input-init class="form-outline">
+                <input type="password" id="password" name="password" [(ngModel)]="loginInfo.password" required placeholder="Mot de passe">
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="register-btn" style="font-size: 10px;" routerLink="/forgetPasswordComponent">Mot de passe oublié?</div>
+                </div>
+              </div>
+  
+              <!-- Submit button -->
+              <button type="button"  (click)="login2()" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block ">Se connecter</button>
+               
+            </form>
+  
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex">
+          <img src="./assets/cover.jpg" alt="cover" class="w-100 rounded-t-5 rounded-tl-lg-0 rounded-br-lg-5" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+      
+     
+</body>

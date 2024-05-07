@@ -1,0 +1,92 @@
+<body>
+
+    <!-- Section: Design Block -->
+<section class=" text-center text-lg-start" style="width: 75%;">
+    <style>
+      .rounded-t-5 {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+      }
+  
+      @media (min-width: 992px) {
+        .rounded-tl-lg-0 {
+          border-top-left-radius: 0;
+        }
+  
+        .rounded-br-lg-5 {
+          border-bottom-right-radius: 0.5rem;
+        }
+      }
+    </style>
+    <div class="card mb-3">
+      <div class="row g-0 d-flex align-items-center">
+        
+        <div class="col-lg-7" style=" display: flex; justify-content: center;">
+        <div class="card-body px-md-5" style="max-width: 80%">
+
+            <div class="container">
+                <img src="./assets/logo2.png" style="height: 60px;" alt="Votre image">
+            </div>
+  
+            <form >
+            <h1 class="titre-bleu">Code de vérification est envoyé par mail</h1>
+              <div data-mdb-input-init class="form-outline">
+                <input type="email" id="email" name="email" [(ngModel)]="email" required placeholder="Nom d'utilisateur / Email">
+              </div>
+              <div data-mdb-input-init class="form-outline">
+                <input type="code" id="code" name="code" [(ngModel)]="code" required placeholder="code de vérification">
+              </div>
+  
+              <!-- Submit button -->
+              <button type="button" (click)="verfierCode(email,code)" >vérifier</button>
+               
+            </form>
+  
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex">
+          <img src="./assets/cover.jpg" alt="cover" class="w-100 rounded-t-5 rounded-tl-lg-0 rounded-br-lg-5" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+      
+     
+</body>
+
+
+
+<!-- <body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="container">
+                <img src="./assets/logo2.png" alt="Votre image">
+            </div>
+            
+            <form>
+                <h1 class="titre-bleu">Code de vérification envoyé Vérifiez votre email</h1>
+                <h3> </h3>
+
+                <div>
+                    <label for="username">Email :</label>
+                    <div>
+                        <input type="email" id="email" name="email" [(ngModel)]="email" required placeholder="Email">
+                      </div>                </div>
+
+
+                <div>
+                    <label for="code">Code :</label>
+                    <div>
+                        <input type="text" id="code" name="code" [(ngModel)]="code" required placeholder="code">
+                      </div>                </div>
+
+                
+                <button type="button" (click)="verfierCode(email,code)" >vérifier</button>
+            </form>
+            <p></p>
+            
+        </div>
+    </div>
+</body> -->

@@ -1,0 +1,121 @@
+/* Ajoutez une classe pour styliser l'image */
+.facebook-logo {
+    display: block;
+    margin: 0 auto 20px; /* Centrer l'image horizontalement avec une marge en bas */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.login-box {
+    width: 450px;
+    height: 500px;
+    /* background-color: rgb(238 218 218 / 19%); */
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.195); */
+    /* transform: translateX(-160%); */
+    /* margin-right: 76px; */
+    /* margin-right: 119px; */
+    /* background-color: aliceblue; */
+    border-radius: 64px;
+
+
+
+  }
+  
+  
+  
+  
+
+h2 {
+    text-align: center;
+    color: #1877f2;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    /* margin-bottom: 8px; */
+    color: #181818;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+button {
+    padding: 5px;
+    background-color: #0267C1;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #155d91;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+     color: #1877f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Ajustez la hauteur selon vos besoins */
+  }
+ 
+  body {
+    /* background-image: url('./assets/bk2.avif'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+  /* template.component.css */
+
+.titre-bleu {
+    color: #1877f2;
+    text-align: center;
+    font-weight: bold;
+  }
+  
